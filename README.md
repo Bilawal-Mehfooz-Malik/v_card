@@ -1,35 +1,77 @@
-# Virtual Card App
+# Virtual Card App: Effortlessly Capture and Organize Contacts
 
-A `virtual card app` that is designed to scan and get the details of the card. The user can use this app to scan and get details like name, contact number, email address, address, company name and designation. Later on, the user can save the contact in the app from where he can make call, send messages or get its location using the methods available in the app.
+Simplify your networking experience with this innovative virtual card app. Streamline the process of scanning business cards, extracting key details, and storing them conveniently on your device. Leverage powerful text recognition to capture contact information and manage it effortlessly from a single app.
 
-- ### HomeScreen
-<div style="display: flex; align-items: center;">
-  <img src="images_for_github/homescreen_light.png" height="400" style="margin-right: 10px;">  <img src="images_for_github/homescreen_dark.png" height="400">
+**Key Features:**
+
+- **Seamless Card Scanning:** Scan business cards with ease using your device's camera or gallery.
+- **Accurate Text Extraction:** Powered by Google ML Kit, the app accurately extracts details like name, contact number, email address, address, company, and designation.
+- **Customizable Contact Management:** Edit and organize your scanned contacts, ensuring all information is readily accessible.
+- **Integrated Communication:** Initiate calls, send messages, or view locations on saved contacts directly from the app (functionality based on available methods on your device).
+- **Light & Dark Themes:** Choose a theme that suits your preference for optimal viewing.
+
+**Packages used:**
+
+* GoRouter (for navigation)
+* Provider (for state management)
+* Camera package (for camera access)
+* Image picker package (for gallery access)
+* Google ML Kit Text Recognition (for text extraction)
+* Sqflite (for local database storage) 
+
+**A Glimpse of the App's Interface:**
+
+**Home Screen:**
+
+  - A clean and user-friendly interface for capturing virtual cards.
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images_for_github/homescreen_light.png" height="250" style="margin-right: 20px;">
+  <img src="images_for_github/homescreen_dark.png" height="250">
 </div>
 
-- ### Image Picking Methods
-<div style="display: flex; align-items: center;">
-  <img src="images_for_github/choosepicker_light.png" height="400" style="margin-right: 10px;">  <img src="images_for_github/choosepicker_dark.png" height="400">
+**Image Picking Methods:**
+
+  - Flexible options for choosing how to capture card details.
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images_for_github/choosepicker_light.png" height="250" style="margin-right: 20px;">
+  <img src="images_for_github/choosepicker_dark.png" height="250">
 </div>
 
-- ### Image Scan Screen
-<div style="display: flex; align-items: center;">
-  <img src="images_for_github/scanningscreen.png" height="400" style="margin-right: 10px;"> 
+**Image Scan Screen:**
+
+  - Focus on capturing a clear image of the business card for optimal text recognition results.
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images_for_github/scanningscreen.png" height="250">
 </div>
 
-- ### Scanned Data Screen
-<div style="display: flex; align-items: center;">
-  <img src="images_for_github/scanneddata_light.png" height="400" style="margin-right: 10px;">  <img src="images_for_github/scanneddata_dark.png" height="400">
+**Scanned Data Screen:**
+
+  - Review the extracted contact details before saving them.
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images_for_github/scanneddata_light.png" height="250" style="margin-right: 20px;">
+  <img src="images_for_github/scanneddata_dark.png" height="250">
 </div>
 
-- ### Edit Contact Screen
-<div style="display: flex; align-items: center;">
-  <img src="images_for_github/edit_contact_light.png" height="400" style="margin-right: 10px;">  <img src="images_for_github/edit_contact_dark.png" height="400">
+**Edit Contact Screen:**
+
+  - Edit and personalize the extracted information for accuracy.
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="images_for_github/edit_contact_light.png" height="250" style="margin-right: 20px;">
+  <img src="images_for_github/edit_contact_dark.png" height="250">
 </div>
 
-- ### Contact Details
+**Contact Details Screen:**
+
+  - Manage and interact with your saved contacts.
+  - Click on the below five buttons to perform some operations like make call or view location, etc.
+
 <div style="display: flex; align-items: center;">
-  <img src="images_for_github/contact_detail_light.png" height="400" style="margin-right: 10px;">  <img src="images_for_github/contact_detail_dark.png" height="400">
+  <img src="images_for_github/contact_detail_light.png" height="250" style="margin-right: 20px;">
+  <img src="images_for_github/contact_detail_dark.png" height="250">
 </div>
 
-The user can tap on the below five buttons to either make call or send message ot to view the location of that user or some other purposes as shown in image.
