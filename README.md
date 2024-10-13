@@ -1,10 +1,10 @@
-# Virtual Card App: Effortlessly Capture and Organize Contacts
+# Virtual Card App: Capture and Organize Contacts
 
-Simplify your networking experience with this innovative virtual card app. Streamline the process of scanning business cards, extracting key details, and storing them conveniently on your device. Leverage powerful text recognition to capture contact information and manage it effortlessly from a single app.
+An app that is designed to scan buisness card and extract the data from it to save it on mobile local storage for performing different operations such as sending calls, messages, etc.
 
 **Key Features:**
 
-- **Seamless Card Scanning:** Scan business cards with ease using your device's camera or gallery.
+- **Card Scanning:** Scan business cards with ease using your device's camera or gallery.
 - **Accurate Text Extraction:** Powered by Google ML Kit, the app accurately extracts details like name, contact number, email address, address, company, and designation.
 - **Customizable Contact Management:** Edit and organize your scanned contacts, ensuring all information is readily accessible.
 - **Integrated Communication:** Initiate calls, send messages, or view locations on saved contacts directly from the app (functionality based on available methods on your device).
